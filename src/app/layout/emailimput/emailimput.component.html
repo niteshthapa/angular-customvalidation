@@ -1,0 +1,4 @@
+<div class="form-group m-1">
+    <label class="m-0" for="exampleInputEmail1">{{label}}</label>
+    <input (blur)="onTouched()" [disabled]="onDisabled"  (input)="onChange($event.target.value)" [value]="value" type="email" class="form-control" >
+  </div>

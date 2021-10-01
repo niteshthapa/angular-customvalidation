@@ -1,0 +1,31 @@
+<div *ngIf="controls.errors?.required" class="alert alert-danger p-1">
+  {{error.required}}
+</div>
+<div *ngIf="controls.errors?.rangeLengthText" class="alert alert-danger p-1">
+  {{error.rangeLengthText}}
+</div>
+<div *ngIf="controls.errors?.rangeLengthDigit" class="alert alert-danger p-1">
+  {{error.rangeLengthDigit}}
+</div>
+<div *ngIf="controls.errors?.maxlength" class="alert alert-danger p-1">
+  {{error.maxLength}}
+</div>
+<div *ngIf="controls.errors?.max" class="alert alert-danger p-1">
+  {{error.maxValue}}
+</div>
+<div *ngIf="controls.errors?.min" class="alert alert-danger p-1">
+  {{error.minValue}}
+</div>
+<div *ngIf="controls.errors?.email" class="alert alert-danger p-1">
+  {{error.email}}
+</div>
+<div *ngIf="controls.errors?.digit" class="alert alert-danger p-1">
+  {{error.digit}}
+</div>
+<div *ngIf="controls.errors?.minMaxLength" class="alert alert-danger p-1">
+  {{error.minMax}}
+</div>
+<div *ngIf="group?.errors?.misMatch" class="alert alert-danger p-1">
+ 
+  {{error.confirmText}}
+</div>
